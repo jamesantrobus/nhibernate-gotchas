@@ -15,7 +15,7 @@ namespace NHibernateGotchas.Tests
 		[Test]
 		[TestCase(false, Description = "False positive")]
 		[TestCase(true, Description = "Failing test (correct)")]
-		public void VerifyIsActiveFieldWithoutMappingTheColumn(bool isActive)
+		public void Verify_IsActive_Property_Without_Mapping_The_Column(bool isActive)
 		{
 			new PersistenceSpecification<Developer>(Session)
 				.CheckProperty(x => x.Name, "James")
