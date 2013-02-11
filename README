@@ -2,3 +2,6 @@ NHibernate Gotchas
 ==================
 
 NHibernate is great...once you know its quirks. These are a couple of things that have tripped me up recently.
+
+* http://blog.antrob.us/2012/05/02/nhibernate-all-session-objects-updated/
+* http://blog.antrob.us/2013/02/11/nhibernate-persistence-specification-default-values/
